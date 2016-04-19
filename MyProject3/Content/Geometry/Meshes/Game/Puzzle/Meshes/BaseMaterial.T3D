@@ -1,0 +1,50 @@
+Begin Object Class=Material Name="BaseMaterial"
+   Begin Object Class=MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.100000
+      ParameterName="Metallic"
+      ExpressionGUID=52A42084427DCE235D8D97A22CC11B32
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=-40
+      MaterialExpressionGuid=BF95DE9B423C2EB2355882ACF29EACE0
+      Material=Material'BaseMaterial'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      ParameterName="Roughness"
+      ExpressionGUID=D1F28C944FDD5D2EED4B209F552ACAD8
+      MaterialExpressionEditorX=-380
+      MaterialExpressionEditorY=200
+      MaterialExpressionGuid=F9F411B4410AEFB0F51489987E29B0B8
+      Material=Material'BaseMaterial'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.750000,G=0.750000,B=0.750000,A=0.000000)
+      ParameterName="DiffuseColor"
+      ExpressionGUID=8C3FA8064A945189CE3DC2A58CA15EB5
+      MaterialExpressionEditorX=-540
+      MaterialExpressionEditorY=-300
+      MaterialExpressionGuid=02DA4A5E4880B1160B15978E4AF2E56E
+      Material=Material'BaseMaterial'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0')
+   Specular=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(1)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   Expressions(2)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0'
+   StateId=34CABC0244E3DD440EA9048B5375064F
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_2'
+   LightingGuid=081B0D9F41163B5A39E416919898E09D
+End Object
